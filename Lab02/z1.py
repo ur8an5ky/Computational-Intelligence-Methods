@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.linear_model import Perceptron
 
-xt1 = np.random.normal([0,1],1,size=(200,2))
+xt1 = np.random.normal([0,-1],1,size=(200,2))
 yt1 = np.zeros(200,dtype='int')
 xt2 = np.random.normal([1,1],1,size=(200,2))
 yt2 = np.ones(200,dtype='int')
