@@ -13,3 +13,7 @@ for i in range(len(matrix)):
 neuron = Perceptron(tol = 1e-3, max_iter = 5)
 neuron.fit(properties, cleanliness)
 print(neuron.score(properties, cleanliness))
+
+neuron = Perceptron(tol = 1e-3)
+neuron.fit(properties, cleanliness)
+print(neuron.score(properties, cleanliness))
